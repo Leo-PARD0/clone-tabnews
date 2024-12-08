@@ -17,4 +17,12 @@ Processo do git:
     Faz alteração
     Git status
     git add " #nome do bagui "
-    git
+    git commit
+    git push
+
+Processo de correção do commit:
+    Git log
+    Git log --oneline
+    Git status
+    Git diff
+    git commit --amend
