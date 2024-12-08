@@ -1,0 +1,20 @@
+Protocolos, Meios de comunicação entre duas ou mais partes. Acordos:
+
+Http - Hyper text transfer, indexação de vários textos diferentes e a transferencia entre as partes
+FTP - File transfer, transferencia de arquivos
+SMtp - Simple mail, transferencia de emails
+IP - Protocolo da internet
+TCP - confere se há erros entre a transferencia
+Udp - Não há conferencia de erros, há interpolação quando falta dados
+
+Next - File Base Routing
+Criação de páginas baseada em arquivos. Necessita de arquivos contendo a sustancia da página
+Popularizado pelo PHP
+
+Git - GitHub - Deploy - DNS
+
+Processo do git:
+    Faz alteração
+    Git status
+    git add " #nome do bagui "
+    git
