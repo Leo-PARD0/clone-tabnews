@@ -44,3 +44,4 @@ antigamente usado em FTP
 mas isso era demorado e atrapalhava. As vezes editavam diretamente do servidor
 
 Agora é enviado o projeto para um CI para testes E depois para um build e depois para o servidor --- Fluxo de deploy
+
