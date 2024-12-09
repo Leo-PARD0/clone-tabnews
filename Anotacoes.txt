@@ -13,6 +13,8 @@ Popularizado pelo PHP
 
 Git - GitHub - Deploy - DNS
 
+Dia 5 e 6
+
 Processo do git:
     Faz alteração
     Git status
@@ -27,6 +29,8 @@ Processo de correção do commit:
     Git diff
     git commit --amend
 
+Dia 7
+
 Aprender a usar ferramentas para entregar um projeto até o final
 Gerar um impacto em alguém
 Experência prazerosa
@@ -39,9 +43,10 @@ Sempre será uma relação entre um client que pede algo usando um protocolo e u
 
 hospedagem de site oferecem abrigo para os arquivos do seu site
 
-deploy é passar os arquivos para o servidor que hospeda o site
+DEPLOY é passar os arquivos para o servidor que hospeda o site
 antigamente usado em FTP
 mas isso era demorado e atrapalhava. As vezes editavam diretamente do servidor
 
 Agora é enviado o projeto para um CI para testes E depois para um build e depois para o servidor --- Fluxo de deploy
 
+Vercel está instalado como extensão no github na parte de configuração de app
