@@ -88,3 +88,8 @@ Dinamica da dopamina
 2 estagio - Progresso
 3 estagio - Conclusão -  A carga final da dopamina que te dá a memória de que isso foi bom
 
+Dia 10
+Estilização do código é essencial.
+Sem estilização padronizada, no momento do merge as coisas ficam confusas
+
+Se o foco aumenta a probabilidade de desistencia diminue
