@@ -50,3 +50,41 @@ mas isso era demorado e atrapalhava. As vezes editavam diretamente do servidor
 Agora é enviado o projeto para um CI para testes E depois para um build e depois para o servidor --- Fluxo de deploy
 
 Vercel está instalado como extensão no github na parte de configuração de app
+
+Dia 9
+Organização
+Níveis
+    1 - Ser lembrado individualmente. 
+    Lembrar o que precisamos fazer para não fazermos, cada vez mais, outras coisas.
+        Menor custo de produção - Energia
+        Menor Tempo de aquecimento - Tempo para conferir o que precisa ser feito
+        Folhas de papel escrito com o que precisa, para não ter tempo de carregamento
+    2 - Ser lembrado em grupo
+        Todos da equipe devem ver o processo e o que falta para concluir
+        Marcar progresso
+    3 - Expandir conhecimento
+    Conversar e desenvolver de forma detalhada
+        Trello / Github 
+        O conhecimento não sai de graça e o aquecimento não é instantaneo
+    4 - Gerar métricas
+    Conseguir mensurar produtividade
+        Aumenta o custo de executar cada tarefas
+        Jira - Mensura as tarefas
+    
+O saldo de não fazer nada é sempre positivo
+        NÃO NEGOCIE O TUDO OU NADA COM TERRORISTAS
+        TRABALHAR POUCO E GANHAR POUCO
+
+Issue de inceptions
+    Issue serve para dar nota a algo
+
+Diminua a pedra até que consiga engolir
+
+Grandes pedras - Milestones
+Pequenas pedras - Issues
+
+Dinamica da dopamina
+1 estagio - identificar algo positivo futuro - inclusive muda o sentido do pensamento  
+2 estagio - Progresso
+3 estagio - Conclusão -  A carga final da dopamina que te dá a memória de que isso foi bom
+
