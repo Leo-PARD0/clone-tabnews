@@ -93,3 +93,20 @@ Estilização do código é essencial.
 Sem estilização padronizada, no momento do merge as coisas ficam confusas
 
 Se o foco aumenta a probabilidade de desistencia diminue
+
+Dia 11
+DNS - Principal porta de entrada para sites e serviços
+
+Domínios são uma mentira - Endereços são apelidos
+Endereços de verdade são IP
+Cada ponto de conexão tem um ip único
+O servidor também possue um ip único
+Toda vez que o computador transfere pacotes pela internet - É carimbado o endereço de destino
+
+Um computador não se conecta por endereços online, mas sim com o ip do servidor
+DNS - Domain Name System
+
+Endereço vai pro dns, vira um ip e no volta para o computador e depois vai para o servidor
+Domínios são os nomes no contato telefonico
+
+Para descobrir o IP do domínio é só pingar aquele dominio
