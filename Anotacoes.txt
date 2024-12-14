@@ -1,3 +1,12 @@
+Dia 2
+Aula 2, aulas não listadas
+
+Dia 3
+Nodejs - lts/hydrogen
+
+SE VOCÊ QUER FAZER UMA TORTA DE MAÇÃ DO ZERO, VOCÊ DEVE PRIMEIRO CRIAR O UNIVERSO.
+
+Dia 4
 Protocolos, Meios de comunicação entre duas ou mais partes. Acordos:
 
 Http - Hyper text transfer, indexação de vários textos diferentes e a transferencia entre as partes
@@ -14,6 +23,8 @@ Popularizado pelo PHP
 Git - GitHub - Deploy - DNS
 
 Dia 5 e 6
+
+Git = Controle de versionamento de código
 
 Processo do git:
     Faz alteração
