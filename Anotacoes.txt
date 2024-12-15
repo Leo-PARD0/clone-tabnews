@@ -1,6 +1,12 @@
 Dia 2
 Aula 2, aulas não listadas
 
+AULA EXTRA - AMBIENTE WINDOWS
+Docker - Gerenciador de "containers", que são "ambientes seguros" para rodar o programa de maneira isolada
+Docker é linux e linux precisa de linux, logo virtualização, ou seja, máquina virtual.
+hyper-v e wsl são maneiras de virtualização, onde hyper-v simula um OS inteiro, enquanto o wsl apenas o kernel
+
+
 Dia 3
 Nodejs - lts/hydrogen
 
