@@ -60,7 +60,7 @@ Sempre será uma relação entre um client que pede algo usando um protocolo e u
 
 hospedagem de site oferecem abrigo para os arquivos do seu site
 
-DEPLOY é passar os arquivos para o servidor que hospeda o site
+DEPLOY - Depositar - é passar os arquivos para o servidor que hospeda o site
 antigamente usado em FTP
 mas isso era demorado e atrapalhava. As vezes editavam diretamente do servidor
 
@@ -111,6 +111,8 @@ Sem estilização padronizada, no momento do merge as coisas ficam confusas
 
 Se o foco aumenta a probabilidade de desistencia diminue
 
+.editorconfig, você pode fazer 1 diferente por pasta. O .editorconfig root é o último.
+
 Dia 11
 DNS - Principal porta de entrada para sites e serviços
 
@@ -127,3 +129,32 @@ Endereço vai pro dns, vira um ip e no volta para o computador e depois vai para
 Domínios são os nomes no contato telefonico
 
 Para descobrir o IP do domínio é só pingar aquele dominio
+
+Dia 11 nv2
+Processo real do acesso a sites:
+Sem saber nada é impossível descobrir o endereço de ip de um site. Porém dá para descobrir sabendo muito POUCO
+Não existe um banco de dados central com todos os ips e domínios. O DNS serve para descentralização para que, quando a internet caia em algum lugar, não caia em todos.
+
+É necessário achar os rootservers que são 13 no total, mas no momento tem mais de 1000 instancias para garantir a redundancia da operação
+Redundancia é bom para ter certeza da execução do serviço.
+
+Computador --x--> site
+           ip - fail
+Root Server <---- Recursive Resolver <----- PC -----> IP
+
+Root server não sabe o ip do domínio. Ele sabe ler o endereço ao contrário, assim ele checa o responsável por aquele tipo de domínio. Assim funciona a hierarquia.
+Domínios .com.br na verdade são .com.br. com um ponto no final - FQDN (Fully Qualified Domain Name)
+. - root domain
+.br - TLD top level domain
+
+Os root servers sabem onde estão os TLDs
+
+ccTLD - country code top-level domains - Reservado para paises
+gTLD - Generic top-level domains - São os genéricos, como o .com - "com" vem de comercial
+
+O computador requisita o ip do dominio para o recursive resolver (que é do provedor de internet) - O Recursive Resolver requisita para o Root Server. 
+O root server não sabe o ip do domínio, mas sabe o ip de quem é responsável por esse tipo de domínios. Então retorna o ip do TLD ao recursive resolver.
+O recursive resolver entra em contato com o servidor do tld, exemplo o .br, perguntando o ip final. O servidor não sabe, mas ele sabe onde fica o servidor que guarda as informações
+Então ele responde com o ip do authoritative server, que é o responsável pelas informações desse domínio. Que devolve o ip pro recursive resolver. Que devolve pro PC.
+
+TTL - Time to live, define quanto tempo um registro deve ser mantido em cash. Assim, quando você está acessando um site, você não precisa requisitar constantemente o ip para cada "área" diferente que vocÊ acessa
