@@ -158,3 +158,18 @@ O recursive resolver entra em contato com o servidor do tld, exemplo o .br, perg
 Então ele responde com o ip do authoritative server, que é o responsável pelas informações desse domínio. Que devolve o ip pro recursive resolver. Que devolve pro PC.
 
 TTL - Time to live, define quanto tempo um registro deve ser mantido em cash. Assim, quando você está acessando um site, você não precisa requisitar constantemente o ip para cada "área" diferente que vocÊ acessa
+
+Dia 12
+Registro de dominio. Para colocar seu domínio no banco de dados do TLD ele precisa ser registrado por um orgão Registrary.
+O responsável pelo registro .br é o Registro.br. Mas existem outros credenciados.
+O banco de dados dos registros .br está em nic.br que é o registrary.
+
+Chorinho de conteúdo sobre servidor DNS
+Authoritative server - Authoritative NameServer
+Vercel registra automaticamete o DNS.
+sudo - executar como amend
+apt - advance packed tool
+
+GeoDNS - responde request de dns com ip mais proximo de quem está fazendo o request
+Cada região do mundo irá responder um A record diferente e próximo do original segundo sua localização
+DNS não propaga. A informação não é empurrada para o mundo, o mundo que busca a informação
