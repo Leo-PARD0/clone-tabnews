@@ -32,3 +32,9 @@ configurar a estilização com o .editorconfig
 root = true é o que define o diretório final
 
 ignora arquivos no prettier com o .prettierignore
+
+
+páginas de status dos serviços utilizados neste projeto:
+  Vercel: https://www.vercel-status.com/
+  AWS: https://health.aws.amazon.com/health/status
+  GitHub: https://www.githubstatus.com/

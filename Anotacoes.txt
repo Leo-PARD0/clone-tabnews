@@ -178,3 +178,37 @@ Dia 13
 Ideia MC Donalds - Sugira algo bizarro sem compromisso algum pra ser negado
 Seu cerebro vai sentir inspiração em criar novas ideias só para se afastar da ideia ruim inicial
 Isso é a TEORIA MC DONALD's
+
+Não existe 100% de uptime. A maioria dos serviços se compremetem a entregar 99.9% de uptime
+O que significa que podem ficar fora do ar por 9h por ano.
+
+SLA - Service Level Agreement - Acordo de nivel de serviço
+
+Status pages - páginas que verificam o status de funcionamento de servíços online
+Consultar sempre primeiro a página de status dos serviços que você usa.
+
+Dia 14
+Algo que nasce complexo permanece complexo
+Overengenieer - excesso de engenharia
+Programar algo simples sempre dá para complexificar
+Programar algo complexo sempre irá permanecer complexo
+
+O mundo já é complexo por natureza. Atingir a simplicidade bem feita do projeto é mais difícil
+
+Arquitetura de software diferente de organização de pastas
+
+É possível criar arquiteturas com todos os arquivos na mesma pasta ou até todos os códigos no mesmo arquivo
+
+Separar códigos em arquivos e organizar em pastas não define arquitetura de software
+Arquitetura de sofrteware é definido pelo escopo dos compontentes e a interação entre eles
+
+Arquitetura simples com ótima modelagem faz você ir longe
+
+Aula bonus
+PoC - Proof of Concept
+MVP - Minimum viable Product
+
+Ajudam a descobrir o melhor angulo do projeto.
+
+O mínimo viável do produto tem que ser capaz de entregar a solução pro problema, mas ele não pode tentar resolver vários problemas ao mesmo tempo.
+Um MVP normalmente passou por várias PoCs para poder ser concebido.
