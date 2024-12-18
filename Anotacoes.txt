@@ -173,3 +173,8 @@ apt - advance packed tool
 GeoDNS - responde request de dns com ip mais proximo de quem está fazendo o request
 Cada região do mundo irá responder um A record diferente e próximo do original segundo sua localização
 DNS não propaga. A informação não é empurrada para o mundo, o mundo que busca a informação
+
+Dia 13
+Ideia MC Donalds - Sugira algo bizarro sem compromisso algum pra ser negado
+Seu cerebro vai sentir inspiração em criar novas ideias só para se afastar da ideia ruim inicial
+Isso é a TEORIA MC DONALD's
