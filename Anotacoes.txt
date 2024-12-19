@@ -212,3 +212,12 @@ Ajudam a descobrir o melhor angulo do projeto.
 
 O mínimo viável do produto tem que ser capaz de entregar a solução pro problema, mas ele não pode tentar resolver vários problemas ao mesmo tempo.
 Um MVP normalmente passou por várias PoCs para poder ser concebido.
+
+Dia 15
+Testes Automatizados
+tiram o peso de mexer em sistema funcionando
+ajudam a verificar que uma parte do sistema continua funcionando da forma esperada.
+TestRunner - Código que excuta outros códogos
+Para cada trecho que o sistema se encontra o test runner testa
+Evita criar programas que geram uma regressão.
+É esperado que um test runner retorne um erro e um relatório.
