@@ -221,3 +221,59 @@ TestRunner - Código que excuta outros códogos
 Para cada trecho que o sistema se encontra o test runner testa
 Evita criar programas que geram uma regressão.
 É esperado que um test runner retorne um erro e um relatório.
+
+Existem 2 modos de programar, ou você cria o código e após isso cria o teste para ver se está
+tudo funcionando conforme esperado. A segunda forma é TDD
+
+TDD - Test Driven Development - Desnvolvimento Orientado a Testes
+imaginar situações onde seu código vai ter reações espereadas e depois programar as funcionalidades do código.
+
+Dia 16
+Existem 2 tipos de testes - Testes de unidade e testes de integração
+Unidade são todos os módulos e funcionalidades do seu sistema
+Unidades de sistema são mutáveis. Seja por reagir diferente pela integração com outro módulo ou por alguma modificação feita por algum dev.
+Quando há mudança, uma unidade pode acabar passando um valor que outra unidade não está esperando, o que pode gerar uma reação em cadeia de erros.
+Garantir o funcionamento da unidade e da integração
+É possível garantir que 100% da unidade está funcionando, mas isso não significa que o sistema vai funcionar.
+Quanto mais do sistema de verdade esta rodando, maior a confiailidade na cobertura do teste
+
+Quanto mais garantia que o sistema está funcionando, mais demora para fazer os testes
+Testes E2E precisam levantar toda a infraestrutura para funcionarem.
+Quando é necessário concertar um erro inesperado de maneira emergencial testes E2E não são eficientes
+
+hierarquia:piramide de testes
+Unidade             Rápido
+integração            !
+End to End - E2E    Devagar
+
+usuario @swyx - " Testes de integração > Unidade é a nova convenção
+
+FrontEnd - Trófeu de testes
+BackEnd - Testes de Favo de Mel
+
+e2e
+INTEGRATION
+INTEGRATION
+INTEGRATION
+unit
+static
+static
+
+integrated
+integrated
+INTEGRATION
+INTEGRATION
+INTEGRATION
+implementeation detail
+inplementation detail
+
+Grande confusão - definir a divisão entre unidade e intrgração
+A definição está em quem desenvolver
+
+Alternativa, definir apenas entre testes rápidos e Devagar
+
+API first, disponibilizar funcionalidades primeiro em API
+
+usuário @rauchg - Guilhermmo Rauch - "A palavra 'unidade' já não é um bom começo para mim. Os seus clientes são confrontados diariamente com sistemas complexos que resultam da integração de milhares de unidades. Testando a abstração interna vesus testando o que os clientes usam.
+
+
