@@ -276,4 +276,58 @@ API first, disponibilizar funcionalidades primeiro em API
 
 usuário @rauchg - Guilhermmo Rauch - "A palavra 'unidade' já não é um bom começo para mim. Os seus clientes são confrontados diariamente com sistemas complexos que resultam da integração de milhares de unidades. Testando a abstração interna vesus testando o que os clientes usam.
 
+Protocolo http
+Cookies
+Cabeçalhos
+Status Codes
+
+Endpoint - ponto final que uma requisição vai chegar. Na prática qualquer endereço na internet é um Endpoint
+Endereço de uma API - Application Programming Interface
+Interface - Tudo é uma interface. As bordas do seu sistema. A falta dela faz com seus sistemas tenham códigos macarronicos, voce não sabe quando começa e quando termina
+Cada interface serve para um público alvo diferente
+
+Quanto mais programável a interface, melhor para programas
+Quanto mais layout, mais util para humanos
+API descarta a necessidade de layout para poder implementar as mudanças do programa em outros projetos.
+
+TUI - Text-Based User Interface
+GUI - Graphical User Interfae
+
+Se clients de diferentes lugares conversarem por http eles vão conseguir trocar informações
+
+API - Interface de programação das aplicações
+
+Pegar as informações por api dá a capacidade de criar alterações de layout que permitirá melhorar a experiencia humana sem quebar a interação entre unidades
+
+Para testar a api precisa ter no mínimo 1 Endpoint
+/status, quando chamado vai devolver a saudde do sistema.
+Endpoints usam File-based Routing
+
+request - o que entra do mundo de fora
+response - que vai ser respondido
+
+charset - character set - tipo de teclado
+
+Curl - Client URL
+http://localost:3000/api/status
+
+http
+  * - o que o curl está fazendo internamente
+  > o que foi enviado para o servidor
+  < Resposta do servidor
+
+Interface Web tende a mudar muito mais que uma API
+Mas api tbm pode mudar ao longo do tempo
+
+breaking change e non-braking change
+breaking change - mudanças que quebram interações
+non-breaking change - não quebra a integração.
+
+URI Path version - No próprio caminho é selecionado qual versão da api
+HEAER VERSIONING - Cabeçalho customisado na request para indicar a versão que vai ser utilizada.
+
+No protocolo http sempre precisa se expolicar um metodo, qu é a ação que você quer fazer contra o servidor
+
+get-Pegar
+post-postar
 
