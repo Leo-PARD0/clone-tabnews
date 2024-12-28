@@ -14,6 +14,7 @@ A instalar:
     React-Dom = npm instal react-dom@18.2.0
     Prettier = npm install prettier -D
     Jest = npm install --save-dev jest@29.6.2
+    psql = sudo apt update - sudo apt install postgresql
 
 Criar o manifesto
     npm init - license MIT

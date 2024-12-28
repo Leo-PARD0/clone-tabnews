@@ -264,8 +264,8 @@ integrated
 INTEGRATION
 INTEGRATION
 INTEGRATION
-implementeation detail
-inplementation detail
+implementation detail
+implementation detail
 
 Grande confusão - definir a divisão entre unidade e intrgração
 A definição está em quem desenvolver
@@ -331,3 +331,85 @@ No protocolo http sempre precisa se expolicar um metodo, qu é a ação que voc�
 get-Pegar
 post-postar
 
+Dia 17
+Escolher um banco de dados envolve mais escolhas do que apenas o banco de dados
+
+3 passos
+DBMS - Data Base Maagement System - Sistema de gereniamento de banco de dados - SGBD
+Query - Consultar
+Migration - Migração
+
+SGBD - separado entre onde ficam armazenados e quem vai faze a gestão
+
+Bancos de dados tem especializações, porém, com o aumento de processamento, qualquer banco de dados te serve
+
+Relacional - SQL
+vs
+Não relacional - NoSQL
+
+SQL - Structured Query Language - Linguagem de consulta estruturada
+
+3 estágios de flexibilidade que uma equipe pode ter com dados
+1 - Buscar dados através de uma interface visual estática e limitada
+2 - Excel - intermediário, acaba pesando com o tempo
+3 - SQL - Avançado, encontra o dado puro
+
+Lambdas - Epaços de processamento isolados que nascem e mmorrem e podem ser paralelizados de forma infinita
+
+DBMS - PostgreSQL
+
+Query - Manual - pg
+
+Migration - Arquivo que instrui uma modificação em um banco de dados - Node-pg-migrate
+
+Virtual Machine - Máquina virtual
+A utilização da máquia virtual veio pela necessidade de rodar o sistema em uma máquina mais próxima possível de um ambiente de produção
+dito isso, era necessário que se emulasse uma máquina diferente da do ambiente de trabalho, mas dentro da máquina do ambiente de trabalho.
+Vgrant serve para gerenciar a virtualização, consiste em um arquivo com as descrições da máquina a se virtualizada dentro do programa.
+
+O sistema de virtualização é ineficiente pois precisa gerar um OS para cada setor do sistema que queria ser rodado, gastando muitos recursos em sistemas complexos.
+Após isso, foi descoberto um jeito de isolar processos (namespaces) e ter um controle granular do uso de recursos (cgroups). Assim, foi criado o Docker
+Docker - interface programática amigável que agrupa recursos dentro do sistema operacional vigente para simular outro sistema operacional (container)
+
+Máquina virtual                         Container
+
+
+Aplicação   Aplicação                   Aplicação   Banco de dados
+ˆ              ˆ                        ˆ           ˆ
+!              !                        !           !
+OS(guest)   OS (guest)                  Container Engine
+ˆ                                       ˆ
+!                                       !
+Virtualizador                           OS(host)
+ˆ                                       ˆ
+!                                       !
+OS (host)                               Máquina Host
+ˆ                                       
+!                                       
+máquina (host)
+
+Containers são muito mais rápidos pois não precisam entrar em nada, rodam direto na máquina com um namespaces separado
+
+Docker foi além.
+
+YAML Ain't Markup Language - É para guardar dados, não marcar textos
+
+Yaml foi montado em cima do JSON, mas se parece com python pois define a hierarquia dos elementos
+através da identação, dito isso, espaços em brancosão essenciais
+
+passo a passo: 
+
+1 docker file - código fonte - mas 
+2 precisa ser compilado em imagem que é travado - como um exe que - Pode ser feito upload em um repositório de imagem como um dockerhub.
+3 é executado por um container
+
+Conhecer problema também é conhecimento
+
+ps - process list
+
+Status code de http = processos exit code
+
+Exit code - último suspiro do processo para determinar se ele saiu com sucesso
+Se o processo saíu com sucesso ele irá marcar 0
+
+O exit code conversa com o jest para informar como funcionou
