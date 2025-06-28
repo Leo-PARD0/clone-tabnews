@@ -1,1 +1,5 @@
-<h2>nada</h2>
+function Home() {
+  return <h1>nada ainda</h1>;
+}
+
+export default Home;
